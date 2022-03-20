@@ -2,19 +2,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-nav{
+}nav{
     background-color: rgb(255, 0, 128);
 }
-.hero{
-    background: url(../images/hero2.jpg);
+.heading{
+    background: url(images/jen1.png);
     height: 90vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
-.hero-content{
+.heading-content{
     /* width: 400px; */
     background-color: black;
     opacity: 0.5;
