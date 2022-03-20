@@ -10,4 +10,7 @@
     Jsfiddle
     Javascript console
 ## setup instructions and installation
-   Clone this repository to a location in your file system "https://github.com/janeffer945/PIZZAINN.git"    
+   Clone this repository to a location in your file system "https://github.com/janeffer945/PIZZAINN.git".    
+ ## Link to live link
+    "https://janeffer945.github.io/PIZZAINN/"
+    
