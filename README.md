@@ -6,4 +6,6 @@
     Html
     Css(Boostrap)
     Javascript(Jquery)
-    
+ ## Requirements
+    Jsfiddle
+    Javascript console
