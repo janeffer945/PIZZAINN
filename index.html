@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza App</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   <link rel="stylesheet" href="style.css">
+    <title>Pizza inn Website</title>
+    <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -28,48 +28,156 @@
                     <a class="nav-link" href="#">Checkout</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#">Contacts Us</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
-    <div class="container-fluid heading">
-        <div class="heading-content">
+    <div class="container-fluid hero">
+        <div class="hero-content">
             <h2>Pizza App</h2>
-            <h3>WELCOME ALL</h3>
-            <h3>THE BEST PIZZA PLACE</h3>
+            <h3>COME ALL WELCOME ALL</h3>
+            <h3>TO THE BEST PIZZA PLACE</h3>
         </div>
     </div>
+    <div class="container text-center my-5">
+      <h3>About Us</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam corporis voluptatibus reiciendis ducimus repellat laborum fuga numquam praesentium sed? Cupiditate consequuntur tempore dignissimos unde tenetur quos sequi eligendi voluptate labore.</p>
+    </div>
     <div class="container">
-        <h3 class="text-center">SAMPLE OF PIZZA SIZES</h3>
-        <p>BUY ONE GET TWO FREE</p>
+        <h3 class=" text-center my-4">MENU</h3>
        <div class=" row img">
-        <div class=" col-md-4 img-cont">
-            <h4>small</h4>
-            <img src="images/jen4.png" width="300px" height="300px" alt="">
-            <p><strong>Ksh.250</strong></p>
+        <div class=" col-md-4 img-cont ">
+            <h4>Meat Deluxe</h4>
+            <img src="images/jen1.png" class="" width="300px" height="300px" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste a omnis, reiciendis facere in neque eaque </p>
         </div>
         <div class=" col-md-4 img-cont">
-            <h4>medium</h4>
+            <h4>Chicken Hawaiian </h4>
             <img src="images/jen2.png" width="300px" height="300px" alt="">
-            <p><strong>Ksh.300</strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste a omnis, reiciendis facere in neque eaque </p>
         </div>
         <div class=" col-md-4 img-cont">
-            <h4>large</h4>
-            <img src="images/jen3.png" width="300px" height="300px" alt="">
-            <p><strong>Ksh.350</strong></p>
+            <h4>BBO Steak</h4>
+            <img src="images/jen3.png"width="300px" height="300px" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste a omnis, reiciendis facere in neque eaque </p>
         </div>
        </div>
     </div>
-   <div class="container">
-    <form>
-        <select name="" id=""><option value="">toppings</option></select>
-        <select name="" id=""></select>
-        <select name="" id=""></select>
-        <script src="js/script.js"></script>
-    </form>
-   </div>
+    <div class="container bg-white mt-5">
+      <div class="pizza-order" id="pizza-form">
+          <div class="head mb-5">
+              <h2 class=" pizza-order text-center position-relative"> Make Your Pizza Order</h2>
+          </div>
+          <form class="form mb-5">
+              <div class="row form-group">
+                <div class="col-md-6 mb-3">
+                  <label for="">Select your satisfactory Size</label>
+                  <select class="form-select input-lg py-2 px-2 shadow-none mt-2"
+                      aria-label="Default select example">
+                      <option selected>Select</option>
+                      <option value="1">Regular</option>
+                      <option value="2">Medium</option>
+                      <option value="3">Large</option>
+                  </select>
+              </div>
+                  <div class="col-md-6 mb-3">
+                      <label for="">Select your favorite crust</label>
+                      <select class="form-select input-lg py-2 px-2 shadow-none mt-2"
+                          aria-label="Default select example">
+                          <option selected>Select</option>
+                          <option value="4">Thin Crust</option>
+                          <option value="1">Thick Crust</option>
+                          <option value="2">Flat Bread</option>
+                          <option value="3">Custom Crust</option>
+                      </select>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                      <label for="">Choose number of Pizzas size</label>
+                      <input type="text" class="form-control p-2 shadow-none mt-2 input-lg">
+                  </div>
+                  <div class="col-md-12 mb-3">
+                      <div class="form-group d-flex justify-content-center">
+                          <button class="btn btn-primary btn-lg mx-auto">
+                              Place Order
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </form>
+      </div>
+      <div class="lower-section container-fluid">
+        <div class="section">
+          <div class="container-fluid">
+            <h4 class="text-center my-3">DELIVERY DETAILS</h4>
+            <form>
+             <div class="row">
+              <div class="col-md-6">
+                <div class="input-form">
+                  <label for="">Name</label>
+                  <input type="text" class="form-control input-lg py-2 px-2 shadow-none mt-2">
+                </div>
+                <div class="input-form">
+                  <label for="">Email</label>
+                  <input type="Email" class="form-control input-lg py-2 px-2 shadow-none mt-2">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="input-form">
+                  <label for="">Phone Number</label>
+                  <input type="number" class="form-control input-lg py-2 px-2 shadow-none mt-2">
+                </div>
+                <div class="input-form">
+                  <label for="">Location</label>
+                  <input type="text" class="form-control input-lg py-2 px-2 shadow-none mt-2">
+                </div>
+              </div>
+             </div>
+            </form>
+          </div>
+          </div>
+          <div class="container-fluid mt-5">
+          <div class="row">
+              <h3 class="text-center mb-5">Opening Hours -Closing Hours</h3>
+              <div class="col-md-4">
+                  <h4>Monday:Closed</h4>
+                  <h4>Tuesday:Closed</h4>
+                  <h4>Wednesday:8:00am-9:00pm</h4>
+              </div>
+              <div class="col-md-4">
+                  <h4>Thursday:8:00am-9:00pm</h4>
+                  <h4>Friday:8:00am-9:00pm</h4>
+                  <h4>Saturday:8:00am-9:00pm</h4>
+              </div>
+              <div class="col-md-4">
+                  <h4>Sunday:2:00pm-9:00pm</h4>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="containter-fluid py-4 text-white">
+          <h3 class="text-center">Contact Us</h3>
+          <div class="row">
+            <div class="col-md-5 ms-5 text-center">
+              <p>Get In Touch With us</p>
+              <h4>Physical Address</h4>
+              <p>We are located Waiyaki street,Nairobi</p>
+            </div>
+            <div class="col-md-5 ms-5 text-center">
+              <h3>Social media</h3>
+              <i class=" ms-4 fab fa-facebook"></i>
+              <i class=" ms-4 fab fa-twitter"></i>
+              <i class=" ms-4 fas fa-phone"></i>
+              <i class=" ms-4 fab fa-instagram"></i>
+              <i class=" ms-4 fab fa-LinkedIn"></i>
+            </div>
+          </div>
+          <p class="text-center mt-3">@2022,Copyright,Rights reserved,Developed by James Musembi</p>
+        </div>
+      </footer>
 </body>
 </html>
