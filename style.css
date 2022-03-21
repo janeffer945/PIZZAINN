@@ -4,7 +4,7 @@
     padding: 0;
 }
 nav{
-    background-color: rgb(142, 45, 172);
+    background-color: rgb(131, 14, 49);
 }
 .heading{
     background: url(images/jen5.png);
@@ -16,7 +16,7 @@ nav{
 }
 .heading-content{
     /* width: 400px; */
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(37, 147, 151);
     opacity: 0.5;
     color: white;
     /* background-color: rgba(255, 255, 255,0.6); */
@@ -31,10 +31,10 @@ nav{
     border:  3px solid navy;
 }
 footer{
-    background-color: blue;
+    background-color: rgb(31, 186, 197);
 }
 .lower-section{
-    background-color: rgb(230, 129, 129);
+    background-color: rgb(218, 49, 49);
     height: 90vh;
     width: 100%;
     background-repeat: no-repeat;
