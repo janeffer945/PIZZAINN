@@ -2,12 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
 }
 nav{
-    background-color: rgb(34, 116, 136);
+    /* background-color: blue; */
 }
 .heading{
-    background: url(images/jen5.png);
+    background: url(images/jen4.png);
     height: 90vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -16,28 +18,29 @@ nav{
 }
 .heading-content{
     /* width: 400px; */
-    background-color: rgb(233, 22, 22);
-    opacity: 0.5;
-    color: white;
+    /* background-color: black;
+    opacity: 0.4; */
+    color: rgb(35, 153, 182);
     /* background-color: rgba(255, 255, 255,0.6); */
 }
 .pizza-order h2::after{
     height: 30px;
     width: 20px;
     position: absolute;
-    background-color: blue;
+    background-color: #f12a07;
 }
 .pizza-order h2{
-    border:  3px solid navy;
+    border:  3px solid #800900;
 }
 footer{
-    background-color: rgb(31, 186, 197);
+    background-color: #991908;
 }
 .lower-section{
-    background-color: rgb(218, 49, 49);
-    height: 90vh;
+    background-color: rgb(17, 223, 250);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
+}
+.min-h{
+    min-height: 100vh;
 }
