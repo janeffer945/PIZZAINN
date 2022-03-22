@@ -30,10 +30,10 @@ nav{
     background-color: hsl(9, 80%, 27%);
 }
 .pizza-order h2{
-    border:  3px solid #800900;
+    border:  3px solid hsl(4, 100%, 25%);
 }
 footer{
-    background-color: #991908;
+    background-color: #310b06;
 }
 .lower-section{
     background-color: rgb(17, 223, 250);

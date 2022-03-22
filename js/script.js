@@ -26,6 +26,7 @@ const checkoutRow = (singlepizza) => {
                 ${singlepizza.pizza.name}
             </td>
             <td>
+            janeffer@janeffer-HP-EliteBook-Folio-1040-G3:~/Desktop/Jenny$ 
                 <div>
                     <div class="topping d-flex">
                         <p class="m-0">
