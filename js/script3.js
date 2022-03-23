@@ -230,4 +230,4 @@ const cart = new Cart();
 cart.initStore();
 const order = new Order();
 // Initializing the orders store
-order.initStore();
+order.initStore(); 
